@@ -125,7 +125,7 @@ class MainApp extends StatelessWidget {
                         if (snapshot.connectionState ==
                             ConnectionState.waiting) {
                           return const Center(
-                              child: CircularProgressIndicator());
+                               child: CircularProgressIndicator());
                         } else if (snapshot.hasError) {
                           return const SigninScreen();
                         } else {

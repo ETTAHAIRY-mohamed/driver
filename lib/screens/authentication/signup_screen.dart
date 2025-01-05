@@ -172,12 +172,10 @@ class _SignupScreenState extends State<SignupScreen> {
     Navigator.of(context).pop();
 
     // Update the state with the selected image
-    if (im != null) {
-      setState(() {
-        _image = im;
-      });
+    setState(() {
+      _image = im;
+    });
     }
-  }
 
   @override
   void initState() {

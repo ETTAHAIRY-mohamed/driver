@@ -57,6 +57,7 @@ dependencies:
   url_launcher: null
   uuid: null
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
